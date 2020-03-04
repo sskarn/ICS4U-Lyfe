@@ -2,6 +2,29 @@
 <html>
 <head>
     <script src="lmr.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDkVdseUShDfi-sNO3l96thF7nKjGP80o8",
+            authDomain: "lyfe-2448c.firebaseapp.com",
+            databaseURL: "https://lyfe-2448c.firebaseio.com",
+            projectId: "lyfe-2448c",
+            storageBucket: "lyfe-2448c.appspot.com",
+            messagingSenderId: "789989042162",
+            appId: "1:789989042162:web:fc8d7112e9a6c5b51a6d6b",
+        measurementId: "G-68ZVGVDGMQ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+</script>
 </head>
 <body>
 <h1>Detecting Your Mood...</h1>
