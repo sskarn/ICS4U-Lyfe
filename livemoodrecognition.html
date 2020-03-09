@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <script src="lmr.js"></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -19,15 +20,17 @@
             storageBucket: "lyfe-2448c.appspot.com",
             messagingSenderId: "789989042162",
             appId: "1:789989042162:web:fc8d7112e9a6c5b51a6d6b",
-        measurementId: "G-68ZVGVDGMQ"
+            measurementId: "G-68ZVGVDGMQ"
         };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         firebase.analytics();
-</script>
+
+    </script>
 </head>
+
 <body>
-<h1>Detecting Your Mood...</h1>
+    <h1>Detecting Your Mood...</h1>
     <div class="camera">
         <video id="video">Video stream not available.</video>
         <button id="startbutton">Take photo</button>
@@ -38,4 +41,5 @@
         <img id="photo" alt="The screen capture will appear in this box.">
     </div>
 </body>
+
 </html>
